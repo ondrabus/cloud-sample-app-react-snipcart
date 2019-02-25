@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/cloud-sample-app-react-snipcart/static/media/radio-button-checked.1a84a9c1.svg"
   },
   {
-    "revision": "adcdc178a918c596141e",
-    "url": "/cloud-sample-app-react-snipcart/static/css/main.b7dd38dd.chunk.css"
+    "revision": "3d4b173fe78c102da128",
+    "url": "/cloud-sample-app-react-snipcart/static/css/main.baf7086b.chunk.css"
   },
   {
     "revision": "ae40487515008aefa03f",
@@ -40,8 +40,8 @@ self.__precacheManifest = [
     "url": "/cloud-sample-app-react-snipcart/static/media/radio-button.8c6533e1.svg"
   },
   {
-    "revision": "adcdc178a918c596141e",
-    "url": "/cloud-sample-app-react-snipcart/static/js/main.adcdc178.chunk.js"
+    "revision": "3d4b173fe78c102da128",
+    "url": "/cloud-sample-app-react-snipcart/static/js/main.3d4b173f.chunk.js"
   },
   {
     "revision": "b2622e38f246209fb933e8b8a6ee76ed",
@@ -76,7 +76,7 @@ self.__precacheManifest = [
     "url": "/cloud-sample-app-react-snipcart/static/media/Core-icons.1b9af651.ttf"
   },
   {
-    "revision": "a178558e0d3ea9f07091bf5c0b3923cd",
+    "revision": "32ae07a8e32c3e1c5b20a652827a0986",
     "url": "/cloud-sample-app-react-snipcart/index.html"
   }
 ];
