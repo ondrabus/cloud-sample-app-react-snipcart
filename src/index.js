@@ -10,7 +10,7 @@ import './index.css';
 
 const application = (
   <CookiesProvider>
-    <Router>
+    <Router basename="/name-of-the-repository">
       <Switch>
         <Route
           path={projectConfigurationPath}
