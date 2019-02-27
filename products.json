@@ -1,10 +1,5 @@
 [
     {
-      "id": "5d6167df-e39d-4877-999d-49e6e96fd8b0",
-      "price": 25.90,
-      "url": "https://makma.github.io/cloud-sample-app-react/products.json"
-    },
-    {
       "id": "0c9a11bb-6fc3-409c-b3cb-f0b797e15489",
       "price": 8.50,
       "url": "https://makma.github.io/cloud-sample-app-react/products.json"
@@ -12,11 +7,6 @@
     {
       "id": "baccdc8b-7dd1-40ea-98bb-6a992b0558df",
       "price": 10.5,
-      "url": "https://makma.github.io/cloud-sample-app-react/products.json"
-    },
-    {
-      "id": "60cc5327-ee90-4472-8e46-4c2b95cfb2bc",
-      "price": 15.9,
       "url": "https://makma.github.io/cloud-sample-app-react/products.json"
     },
     {
