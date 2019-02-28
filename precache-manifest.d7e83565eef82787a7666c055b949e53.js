@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/cloud-sample-app-react-snipcart/static/media/radio-button-checked.1a84a9c1.svg"
   },
   {
-    "revision": "086728a858b5d49a09aa",
+    "revision": "1535528692c17a64aecf",
     "url": "/cloud-sample-app-react-snipcart/static/css/main.baf7086b.chunk.css"
   },
   {
@@ -40,43 +40,43 @@ self.__precacheManifest = [
     "url": "/cloud-sample-app-react-snipcart/static/media/radio-button.8c6533e1.svg"
   },
   {
-    "revision": "086728a858b5d49a09aa",
-    "url": "/cloud-sample-app-react-snipcart/static/js/main.086728a8.chunk.js"
-  },
-  {
-    "revision": "ccdb76a033026dbdc3f08c50f4a5263f",
-    "url": "/cloud-sample-app-react-snipcart/static/media/SourceSansPro-Light.ccdb76a0.woff"
+    "revision": "1535528692c17a64aecf",
+    "url": "/cloud-sample-app-react-snipcart/static/js/main.15355286.chunk.js"
   },
   {
     "revision": "b2622e38f246209fb933e8b8a6ee76ed",
     "url": "/cloud-sample-app-react-snipcart/static/media/PTSerif-Bold.b2622e38.woff"
   },
   {
-    "revision": "4611bc4557599035d912ff07366ad002",
-    "url": "/cloud-sample-app-react-snipcart/static/media/Core-icons.4611bc45.eot"
+    "revision": "ccdb76a033026dbdc3f08c50f4a5263f",
+    "url": "/cloud-sample-app-react-snipcart/static/media/SourceSansPro-Light.ccdb76a0.woff"
   },
   {
     "revision": "fdc0354668675e460e18d8e6b880e634",
     "url": "/cloud-sample-app-react-snipcart/static/media/SourceSansPro-Regular.fdc03546.woff"
   },
   {
+    "revision": "4611bc4557599035d912ff07366ad002",
+    "url": "/cloud-sample-app-react-snipcart/static/media/Core-icons.4611bc45.eot"
+  },
+  {
     "revision": "54f926c7e2cffb824547c75bc5ac0b5e",
     "url": "/cloud-sample-app-react-snipcart/static/media/SourceSansPro-Bold.54f926c7.woff"
-  },
-  {
-    "revision": "6823218d348f1ba4e035908b672c745a",
-    "url": "/cloud-sample-app-react-snipcart/static/media/Core-icons.6823218d.svg"
-  },
-  {
-    "revision": "1b9af651cbf6b3f133faf2bede0e5266",
-    "url": "/cloud-sample-app-react-snipcart/static/media/Core-icons.1b9af651.ttf"
   },
   {
     "revision": "14fb01c406a39aab06275f5578c7316f",
     "url": "/cloud-sample-app-react-snipcart/static/media/Core-icons.14fb01c4.woff"
   },
   {
-    "revision": "3a4ce0da122d5ceb1dd5363b9c802e4e",
+    "revision": "1b9af651cbf6b3f133faf2bede0e5266",
+    "url": "/cloud-sample-app-react-snipcart/static/media/Core-icons.1b9af651.ttf"
+  },
+  {
+    "revision": "6823218d348f1ba4e035908b672c745a",
+    "url": "/cloud-sample-app-react-snipcart/static/media/Core-icons.6823218d.svg"
+  },
+  {
+    "revision": "5d519db0814200ca142e871e11ce17c4",
     "url": "/cloud-sample-app-react-snipcart/index.html"
   }
 ];
