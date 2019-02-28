@@ -52,6 +52,10 @@ self.__precacheManifest = [
     "url": "/cloud-sample-app-react-snipcart/static/media/PTSerif-Bold.b2622e38.woff"
   },
   {
+    "revision": "4611bc4557599035d912ff07366ad002",
+    "url": "/cloud-sample-app-react-snipcart/static/media/Core-icons.4611bc45.eot"
+  },
+  {
     "revision": "fdc0354668675e460e18d8e6b880e634",
     "url": "/cloud-sample-app-react-snipcart/static/media/SourceSansPro-Regular.fdc03546.woff"
   },
@@ -60,20 +64,16 @@ self.__precacheManifest = [
     "url": "/cloud-sample-app-react-snipcart/static/media/SourceSansPro-Bold.54f926c7.woff"
   },
   {
-    "revision": "4611bc4557599035d912ff07366ad002",
-    "url": "/cloud-sample-app-react-snipcart/static/media/Core-icons.4611bc45.eot"
-  },
-  {
     "revision": "6823218d348f1ba4e035908b672c745a",
     "url": "/cloud-sample-app-react-snipcart/static/media/Core-icons.6823218d.svg"
   },
   {
-    "revision": "14fb01c406a39aab06275f5578c7316f",
-    "url": "/cloud-sample-app-react-snipcart/static/media/Core-icons.14fb01c4.woff"
-  },
-  {
     "revision": "1b9af651cbf6b3f133faf2bede0e5266",
     "url": "/cloud-sample-app-react-snipcart/static/media/Core-icons.1b9af651.ttf"
+  },
+  {
+    "revision": "14fb01c406a39aab06275f5578c7316f",
+    "url": "/cloud-sample-app-react-snipcart/static/media/Core-icons.14fb01c4.woff"
   },
   {
     "revision": "3a4ce0da122d5ceb1dd5363b9c802e4e",
