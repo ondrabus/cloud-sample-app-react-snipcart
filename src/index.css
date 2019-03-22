@@ -1366,7 +1366,6 @@ body {
   display: block;
   margin: 0.5rem;
   padding-top: 15%;
-  padding-bottom: 25%;
 }
 .application-content .product-tile-image img {
   height: auto;
@@ -1377,8 +1376,8 @@ body {
   filter: alpha(opacity=40);
 }
 .application-content .product-tile-info {
-  padding: 1.25rem;
-  position: absolute;
+  display: flex;
+  padding: 1rem;
   bottom: 0;
 }
 .application-content .product-tile .product-tile-status {
@@ -1418,6 +1417,19 @@ body {
   margin: auto;
   width: 100%;
   padding: 1.25rem;
+}
+.product-item-quantity {
+  text-align: right;
+}
+.product-quantity--in-stock {
+  color: green;
+  font-weight: bold;
+  padding-right: 3.75rem;
+}
+.product-quantity--out-of-stock {
+  color: red;
+  font-weight: bold;
+  padding-right: 2.5rem;
 }
 .application-content .product-tile a {
   color: #000;
@@ -6172,4 +6184,18 @@ body {
 /* Not a fan of this, but 'react-spinners' plugin doesn't let you change the inline style of inline-block or set a className to override */
 .application-content > div:first-child {
   display: block !important;
+}
+
+.btn.buy-button {
+  position: absolute;
+  bottom: 12px;
+  right: 20px;
+}
+
+.btn.buy-button--disabled {
+  position: absolute;
+  bottom: 12px;
+  right: 20px;
+  color: lightgray;
+  border-color: lightgray;
 }

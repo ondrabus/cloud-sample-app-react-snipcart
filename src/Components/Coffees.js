@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import Link from '../Components/LowerCaseUrlLink';
-import { resolveContentLink } from '../Utilities/ContentLinks';
 import { CoffeeStore } from '../Stores/Coffee';
 import { translate } from 'react-translate';
 
@@ -66,10 +64,11 @@ class Coffees extends Component {
     };
 
     let coffees = this.state.coffees.filter(filter).map((coffee, index) => {
-      let price =
-        coffee.price.value !== null
-          ? formatPrice(coffee.price.value, this.props.language)
-          : this.props.t('noPriceValue');
+      let id = coffee.system.id;
+      let country = coffee.country.value;
+      let price = coffee.price.value;
+      let formattedPrice = formatPrice(coffee.price.value, this.props.language);
+      let quantity = coffee.quantity.value;
 
       let name =
         coffee.productName.value.trim().length > 0
@@ -94,23 +93,46 @@ class Coffees extends Component {
         );
 
       let status = renderProductStatus(coffee.productStatus);
-      let link = resolveContentLink(
-        { type: 'coffee', urlSlug: coffee.urlPattern.value },
-        this.props.language
-      );
+
+      let buyButtonStyles =
+        'snipcart-add-item btn ' +
+        (quantity > 0 ? 'buy-button' : 'buy-button--disabled');
+      let quantityStyles =
+        quantity > 0
+          ? 'product-quantity--in-stock'
+          : 'product-quantity--out-of-stock';
+      let quantityTitle = quantity > 0 ? 'in stock' : 'out of stock';
 
       return (
         <div className="col-md-6 col-lg-4" key={index}>
           <article className="product-tile">
-            <Link to={link}>
-              <h1 className="product-heading">{name}</h1>
-              {status}
-              <figure className="product-tile-image">{imageLink}</figure>
-              <div className="product-tile-info">
-                <span className="product-tile-price">{price}</span>
-              </div>
-            </Link>
+            <h1 className="product-heading">{name}</h1>
+            {status}
+            <figure className="product-tile-image">{imageLink}</figure>
+            <div className="product-item-quantity">
+              <span className={quantityStyles}>
+                {' '}
+                {`${quantityTitle}: ${quantity} pcs`}
+              </span>
+            </div>
+            <div className="product-tile-info">
+              <span className="product-tile-price">{formattedPrice}</span>
+            </div>
           </article>
+          <div>
+            <button
+              className={buyButtonStyles}
+              disabled={quantity < 1}
+              data-item-id={id}
+              data-item-name={name}
+              data-item-price={price}
+              data-item-url="https://kentico.github.io/cloud-sample-app-react-snipcart/products.json"
+              data-item-description={country}
+              data-item-image={coffee.image.value[0].url}
+            >
+              Buy coffee!
+            </button>
+          </div>
         </div>
       );
     });

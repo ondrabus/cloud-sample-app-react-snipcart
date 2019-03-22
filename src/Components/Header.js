@@ -82,6 +82,23 @@ const Header = props => {
                     Español
                   </a>
                 </li>
+                <li>
+                  <span
+                    role="img"
+                    aria-label="cart"
+                    className="snipcart-checkout"
+                  >
+                    🛒
+                  </span>
+                </li>
+                <li className="snipcart-summary">
+                  <span className="snipcart-total-items" />
+                  <span>&nbsp; items &nbsp;</span>
+                </li>
+                <li className="snipcart-summary">
+                  <span> for &nbsp;</span>
+                  <span className="snipcart-total-price" />
+                </li>
               </ul>
             </nav>
           </div>
